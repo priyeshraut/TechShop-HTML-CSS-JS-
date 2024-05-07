@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="../js/app.js" defer></script>
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <!-- headerTagLine -->
+        <div class="headerTop bigScreenPadding">
+            <div class="headerTagLine smallScreenPadding">
+                <i class="ri-box-3-line"></i>
+                <p>Free Shipping for orders over $50</p>
+            </div>
+            <nav class="">
+                <ul class="navList">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                    <li><a href="./helpcenter.html">Help Center</a></li>
+                    <li>
+                        <a href="#" id="callUs">Call Us</a>
+                        <a href="#">123-456-7890</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- headerMain -->
+        <div class="headerMain smallScreenPadding bigScreenPadding">
+            <div class="headerMainInner">
+                <a href="../index.html">TechShop</a>
+                <div class="icons">
+                    <a href="#">
+                        <i class="fa fa-thin fa-cart-shopping"></i>
+                        <span>0</span>
+                    </a>
+                    <i class="fa fa-light fa-bars" id="hamburger"></i>
+                </div>
+            </div>
+            <form>
+                <input type="search" name="search" id="search" placeholder="Search...." />
+                <button type="button">
+                    <i class="fa fa-light fa-magnifying-glass"></i>
+                </button>
+            </form>
+            <div class="headerMainInnerSecond">
+                <a href="#">
+                    <i class="fa-solid fa-user"></i>
+                    <span>Log In</span>
+                </a>
+                <a href="#">
+                    <i class="fa-regular fa-heart"></i>
+                </a>
+                <div class="icons">
+                    <a href="#">
+                        <i class="fa fa-thin fa-cart-shopping"></i>
+                        <span>0</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <ul class="caterories bigScreenPadding">
+            <li><a href="#">Shop All</a></li>
+            <li><a href="#">Computers</a></li>
+            <li><a href="#">Tablets</a></li>
+            <li><a href="#">Drones & Cameras</a></li>
+            <li><a href="#">Audio</a></li>
+            <li><a href="#">Mobile</a></li>
+            <li><a href="#">T.V & Home Cinema</a></li>
+            <li><a href="#">Wearable Tech</a></li>
+            <li><a href="#">Sale</a></li>
+        </ul>
+
+        <!-- aside -->
+        <aside class="hamburgerMobileView">
+            <div class="hamMobileIcon">
+                <a href="#">
+                    <i class="fa-solid fa-user"></i>
+                    <span>Log In</span>
+                </a>
+                <a href="#">
+                    <i class="fa-regular fa-heart"></i>
+                </a>
+                <i class="fa fa-sharp fa-thin fa-xmark" id="hamClose"></i>
+            </div>
+            <nav>
+                <ul class="navList">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                    <li><a href="./helpcenter.html">Help Center</a></li>
+                    <li>
+                        <a href="#" id="callUs">Call Us</a>
+                        <a href="#">123-456-7890</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="hamCategory">
+                <h2>Categories</h2>
+                <ul>
+                    <li><a href="#">Shop All</a></li>
+                    <li><a href="#">Computers</a></li>
+                    <li><a href="#">Tablets</a></li>
+                    <li><a href="#">Drones & Cameras</a></li>
+                    <li><a href="#">Audio</a></li>
+                    <li><a href="#">Mobile</a></li>
+                    <li><a href="#">T.V & Home Cinema</a></li>
+                    <li><a href="#">Wearable Tech</a></li>
+                    <li><a href="#">Sale</a></li>
+                </ul>
+            </div>
+        </aside>
+    </header>
+
+    <!-- main -->
+    <main>
+
+        <section class="categorySection">
+            <aside>
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <i class="ri-arrow-right-s-line"></i>
+                        <li><a href="#">All Products</a></li>
+                    </ul>
+                </nav>
+                <div class="browse">
+                    <p>Browse by</p>
+                    <nav>
+                        <ul>
+                            <li><a href="#">All Products</a></li>
+                            <li><a href="#">Best Sellers</a></li>
+                            <li><a href="#">Computers</a></li>
+                            <li><a href="#">Drones & Cameras</a></li>
+                            <li><a href="#">Headphones</a></li>
+                            <li><a href="#">Home Page Best Sellers</a></li>
+                            <li><a href="#">Home Page Sale</a></li>
+                            <li><a href="#">Home Page Sale</a></li>
+                            <li><a href="#">Mobile</a></li>
+                            <li><a href="#">Sale</a></li>
+                            <li><a href="#">Speakers</a></li>
+                            <li><a href="#">Tablets</a></li>
+                            <li><a href="#">TV & Home Cinema</a></li>
+                            <li><a href="#">Wearable Tech</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <form action="">
+                    <p>Filter by</p>
+                    <div class="borderBottom" id="borderBottom">
+                        <label for="price">Price</label>
+                        <div>
+                            <input type="range" name="price" id="price">
+                        </div>
+                        <div class="flex">
+                            <p>$70.00</p>
+                            <p>$85.00</p>
+                        </div>
+                    </div>
+                    <div class="borderBottom">
+                        <label for="color">Color</label>
+                        <div>
+                            <input type="color" name="color" id="color">
+                        </div>
+                    </div>
+                </form>
+            </aside>
+            <div class="productCat">
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <i class="ri-arrow-right-s-line"></i>
+                        <li><a href="#">All Products</a></li>
+                    </ul>
+                </nav>
+                <h2 class="h2style">All Products</h2>
+                <div class="option">
+                    <p>64 products</p>
+                    <nav id="filter">
+                        <a href="./filterSort.html">Filter & Sort</a>
+                    </nav>
+                    <form action="">
+                        <label for="sortBy">Sort by:</label>
+                        <select name="sortBy" id="sortBy">
+                            <option value="">Recomended</option>
+                            <option value="">Newest</option>
+                            <option value="">Price (low to high)</option>
+                            <option value="">Price (high to low)</option>
+                            <option value="">Name (A-Z)</option>
+                            <option value="">Name (Z-A)</option>
+                        </select>
+                    </form>
+                </div>
+                <div class="items">
+                    <div class="item">
+                        <div class="itemImg">
+                            <img src="../img/item/1.webp" alt="" />
+                        </div>
+                        <div class="itemDesc">
+                            <p class="itemName">
+                                JP - Space Tablet 10.4" Wi-Fi 32GB
+                            </p>
+                            <p class="price">
+                                <span class="cutPrice">$85.00</span><span>$70.00</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="itemImg">
+                            <img src="../img/item/2.webp" alt="" />
+                        </div>
+                        <div class="itemDesc">
+                            <p class="itemName">
+                                JP - Space Tablet 10.4" Wi-Fi 32GB
+                            </p>
+                            <p class="price">
+                                <span class="cutPrice">$85.00</span><span>$70.00</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="itemImg">
+                            <img src="../img/item/3.webp" alt="" />
+                        </div>
+                        <div class="itemDesc">
+                            <p class="itemName">
+                                JP - Space Tablet 10.4" Wi-Fi 32GB
+                            </p>
+                            <p class="price">
+                                <span class="cutPrice">$85.00</span><span>$70.00</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="itemImg">
+                            <img src="../img/item/4.webp" alt="" />
+                        </div>
+                        <div class="itemDesc">
+                            <p class="itemName">
+                                JP - Space Tablet 10.4" Wi-Fi 32GB
+                            </p>
+                            <p class="price">
+                                <span class="cutPrice">$85.00</span><span>$70.00</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="itemImg">
+                            <img src="../img/item/5.webp" alt="" />
+                        </div>
+                        <div class="itemDesc">
+                            <p class="itemName">
+                                JP - Space Tablet 10.4" Wi-Fi 32GB
+                            </p>
+                            <p class="price">
+                                <span class="cutPrice">$85.00</span><span>$70.00</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="itemImg">
+                            <img src="../img/item/6.webp" alt="" />
+                        </div>
+                        <div class="itemDesc">
+                            <p class="itemName">
+                                JP - Space Tablet 10.4" Wi-Fi 32GB
+                            </p>
+                            <p class="price">
+                                <span class="cutPrice">$85.00</span><span>$70.00</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="itemImg">
+                            <img src="../img/item/7.webp" alt="" />
+                        </div>
+                        <div class="itemDesc">
+                            <p class="itemName">
+                                JP - Space Tablet 10.4" Wi-Fi 32GB
+                            </p>
+                            <p class="price">
+                                <span class="cutPrice">$85.00</span><span>$70.00</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="itemImg">
+                            <img src="../img/item/8.webp" alt="" />
+                        </div>
+                        <div class="itemDesc">
+                            <p class="itemName">
+                                JP - Space Tablet 10.4" Wi-Fi 32GB
+                            </p>
+                            <p class="price">
+                                <span class="cutPrice">$85.00</span><span>$70.00</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="itemImg">
+                            <img src="../img/item/9.webp" alt="" />
+                        </div>
+                        <div class="itemDesc">
+                            <p class="itemName">
+                                JP - Space Tablet 10.4" Wi-Fi 32GB
+                            </p>
+                            <p class="price">
+                                <span class="cutPrice">$85.00</span><span>$70.00</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="itemImg">
+                            <img src="../img/item/10.webp" alt="" />
+                        </div>
+                        <div class="itemDesc">
+                            <p class="itemName">
+                                JP - Space Tablet 10.4" Wi-Fi 32GB
+                            </p>
+                            <p class="price">
+                                <span class="cutPrice">$85.00</span><span>$70.00</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="itemImg">
+                            <img src="../img/item/11.webp" alt="" />
+                        </div>
+                        <div class="itemDesc">
+                            <p class="itemName">
+                                JP - Space Tablet 10.4" Wi-Fi 32GB
+                            </p>
+                            <p class="price">
+                                <span class="cutPrice">$85.00</span><span>$70.00</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="itemImg">
+                            <img src="../img/item/12.webp" alt="" />
+                        </div>
+                        <div class="itemDesc">
+                            <p class="itemName">
+                                JP - Space Tablet 10.4" Wi-Fi 32GB
+                            </p>
+                            <p class="price">
+                                <span class="cutPrice">$85.00</span><span>$70.00</span>
+                            </p>
+                        </div>
+                    </div>         
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer>
+        <!-- Need Help -->
+        <div class="needHelp">
+            <picture class="img" id="img">
+                <source srcset="../img/needHelp/samll.webp" media="(max-width: 553px)" />
+                <img src="../img/needHelp/big.webp" alt="" />
+            </picture>
+            <div class="bigScreen">
+                <div class="bigScreenInner">
+                    <p class="needText">Need Help? Check Out <br />Our Help Center</p>
+                    <p class="smallText">
+                        I'm a paragraph. Click here to add your own text and edit me. Let
+                        your users get to know you.
+                    </p>
+                    <button type="button" class="button">Go To Help Center</button>
+                </div>
+            </div>
+        </div>
+        <section class="footerNav sectionPadding">
+            <div class="storeLocation">
+                <h3>Store Location</h3>
+                <p>
+                    500 Terry Francine Street <br />
+                    San Francisco, CA 94158 <br />
+                    info@mysite.com <br />
+
+                    123-456-7890
+                </p>
+                <ul>
+                    <li><i class="ri-facebook-fill"></i></li>
+                    <li><i class="ri-instagram-line"></i></li>
+                    <li><i class="ri-twitter-x-fill"></i></li>
+                    <li><i class="ri-youtube-fill"></i></li>
+                </ul>
+            </div>
+            <div class="shop">
+                <h3>Shop</h3>
+                <ul>
+                    <li><a href="#">Shop All</a></li>
+                    <li><a href="#">Computers</a></li>
+                    <li><a href="#">Tablets</a></li>
+                    <li><a href="#">Drones & Cameras</a></li>
+                    <li><a href="#">Audio</a></li>
+                    <li><a href="#">Mobile</a></li>
+                    <li><a href="#">T.V & Home Cinema</a></li>
+                    <li><a href="#">Wearable Tech</a></li>
+                    <li><a href="#">Sale</a></li>
+                </ul>
+            </div>
+            <div class="customerSupport">
+                <h3>Customer Support</h3>
+                <ul>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+            </div>
+            <div class="policy">
+                <h3>Policy</h3>
+                <ul>
+                    <li><a href="#">Shopping & Returns</a></li>
+                    <li><a href="#">Terms & conditions</a></li>
+                    <li><a href="#">Payment Methods</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+        </section>
+        <section class="footerPaymentMethods">
+            <p>We accept the following paying methods</p>
+            <div class="paymentMethods">
+                <div class="img">
+                    <img src="../img/paymentMethod/Visa.webp" alt="">
+                </div>
+                <div class="img">
+                    <img src="../img/paymentMethod/AmericanExpress.webp" alt="">
+                </div>
+                <div class="img">
+                    <img src="../img/paymentMethod/brand-mastercard@3x.webp" alt="">
+                </div>
+                <div class="img">
+                    <img src="../img/paymentMethod/Diners.webp" alt="">
+                </div>
+                <div class="img">
+                    <img src="../img/paymentMethod/Discover.webp" alt="">
+                </div>
+                <div class="img">
+                    <img src="../img/paymentMethod/Jcb.webp" alt="">
+                </div>
+                <div class="img">
+                    <img src="../img/paymentMethod/PayPal.webp" alt="">
+                </div>
+                <div class="img">
+                    <img src="../img/paymentMethod/UnionPay.webp" alt="">
+                </div>
+            </div>
+        </section>
+        <p class="footerLower">Copyright &copy; <span class="year"></span> www.techshop.com - All right reserved </p>
+    </footer>
+
+    <div class="moveToTop show-link">
+        <a href="#">
+          <button class="btn">
+            <i class="ri-arrow-up-s-line"></i>
+          </button>
+        </a>
+      </div>
+</body>
+
+</html>

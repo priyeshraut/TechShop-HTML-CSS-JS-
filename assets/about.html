@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="../js/app.js" defer></script>
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <!-- headerTagLine -->
+        <div class="headerTop bigScreenPadding">
+            <div class="headerTagLine smallScreenPadding">
+                <i class="ri-box-3-line"></i>
+                <p>Free Shipping for orders over $50</p>
+            </div>
+            <nav class="">
+                <ul class="navList">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                    <li><a href="./helpcenter.html">Help Center</a></li>
+                    <li>
+                        <a href="#" id="callUs">Call Us</a>
+                        <a href="#">123-456-7890</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- headerMain -->
+        <div class="headerMain smallScreenPadding bigScreenPadding">
+            <div class="headerMainInner">
+                <a href="../index.html">TechShop</a>
+                <div class="icons">
+                    <a href="#">
+                        <i class="fa fa-thin fa-cart-shopping"></i>
+                        <span>0</span>
+                    </a>
+                    <i class="fa fa-light fa-bars" id="hamburger"></i>
+                </div>
+            </div>
+            <form>
+                <input type="search" name="search" id="search" placeholder="Search...." />
+                <button type="button">
+                    <i class="fa fa-light fa-magnifying-glass"></i>
+                </button>
+            </form>
+            <div class="headerMainInnerSecond">
+                <a href="#">
+                    <i class="fa-solid fa-user"></i>
+                    <span>Log In</span>
+                </a>
+                <a href="#">
+                    <i class="fa-regular fa-heart"></i>
+                </a>
+                <div class="icons">
+                    <a href="#">
+                        <i class="fa fa-thin fa-cart-shopping"></i>
+                        <span>0</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <ul class="caterories bigScreenPadding">
+            <li><a href="#">Shop All</a></li>
+            <li><a href="#">Computers</a></li>
+            <li><a href="#">Tablets</a></li>
+            <li><a href="#">Drones & Cameras</a></li>
+            <li><a href="#">Audio</a></li>
+            <li><a href="#">Mobile</a></li>
+            <li><a href="#">T.V & Home Cinema</a></li>
+            <li><a href="#">Wearable Tech</a></li>
+            <li><a href="#">Sale</a></li>
+        </ul>
+
+        <!-- aside -->
+        <aside class="hamburgerMobileView">
+            <div class="hamMobileIcon">
+                <a href="#">
+                    <i class="fa-solid fa-user"></i>
+                    <span>Log In</span>
+                </a>
+                <a href="#">
+                    <i class="fa-regular fa-heart"></i>
+                </a>
+                <i class="fa fa-sharp fa-thin fa-xmark" id="hamClose"></i>
+            </div>
+            <nav>
+                <ul class="navList">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                    <li><a href="./helpcenter.html">Help Center</a></li>
+                    <li>
+                        <a href="#" id="callUs">Call Us</a>
+                        <a href="#">123-456-7890</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="hamCategory">
+                <h2>Categories</h2>
+                <ul>
+                    <li><a href="#">Shop All</a></li>
+                    <li><a href="#">Computers</a></li>
+                    <li><a href="#">Tablets</a></li>
+                    <li><a href="#">Drones & Cameras</a></li>
+                    <li><a href="#">Audio</a></li>
+                    <li><a href="#">Mobile</a></li>
+                    <li><a href="#">T.V & Home Cinema</a></li>
+                    <li><a href="#">Wearable Tech</a></li>
+                    <li><a href="#">Sale</a></li>
+                </ul>
+            </div>
+        </aside>
+    </header>
+
+    <!-- main -->
+    <main>
+        <section class="aboutSection">
+            <!-- About -->
+
+            <div class="aboutUs ">
+                <h2 class="h2style">About TechShed</h2>
+                <div class="about">
+                    <picture>
+                        <source srcset="../img/about/small.webp" media="(max-width: 553px)">
+                        <img src="../img/about/big.webp" alt="">
+                    </picture>
+                    <div class="aboutIntro">
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima eum tempora facilis, laudantium sit cum quos ducimus eos ullam ex fugit corrupti facere modi deleniti inventore, illum ut explicabo porro aut aperiam ipsum accusantium at temporibus minus! Tempore fugit culpa amet vel, eum nam ut officia necessitatibus voluptatibus aperiam eveniet.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi maxime illum culpa fuga explicabo autem ea perspiciatis, soluta eaque deserunt deleniti minus beatae aut, vero, doloremque vitae sit modi error accusamus. Cumque cupiditate atque eos laboriosam, ipsam officia error eius, consectetur, culpa obcaecati eveniet mollitia quia magnam quibusdam! Consequatur voluptatum quos sequi? Velit voluptatibus quaerat consequatur doloribus minus, atque eveniet sit ut in, fuga ipsum adipisci illo rem officia vero?
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Career -->
+
+            <div class="career">
+                <h2 class="h2style">Careers</h2>
+                <p>Check out our job postings & opportunities waiting for you</p>
+                <form>
+                    <div class="one">
+                        <label for="firstName">First Name</label>
+                        <div>
+                            <input type="text" name="firstName" id="firstName">
+                        </div>
+                    </div>
+                    <div class="two">
+                        <label for="lastName">Last Name</label>
+                        <div>
+                            <input type="text" name="lastName" id="lastName">
+                        </div>
+                    </div>
+                    <div class="one">
+                        <label for="email">Email</label>
+                        <div>
+                            <input type="email" name="email" id="email">
+                        </div>
+                    </div>
+                    <div class="two">
+                        <label for="phone">Phone</label>
+                        <div>
+                            <input type="tel" name="phone" id="phone">
+                        </div>
+                    </div>
+                    <div class="one">
+                        <label for="select">Position You Apply for</label>
+                        <div>
+                            <select name="select" id="select">
+                                <option value="">Select Position</option>
+                                <option value="">In-store Sales</option>
+                                <option value="">Store Leadership</option>
+                                <option value="">In-store Operations</option>
+                                <option value="">Wearhouse & Logistics</option>
+                                <option value="">Ecommerce</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="two">
+                        <label for="date">Available Start Date *</label>
+                        <div>
+                            <input type="date" name="date" id="date" placeholder="Start Date">
+                        </div>
+                    </div>
+                    <div class="link">
+                        <label for="url">Link to Resume</label>
+                        <div>
+                            <input type="text" name="url" id="url" placeholder="Enter URL">
+                        </div>
+                    </div>
+                    <div class="btn">
+                        <button type="submit" class="button whiteBgBtn">Submit</button>
+                    </div>
+                    <div class="thanks">
+                        <p>Thanks for submitting !</p>
+                    </div>
+                </form>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+         <!-- Need Help -->
+         <div class="needHelp">
+            <picture class="img" id="img">
+                <source srcset="../img/needHelp/samll.webp" media="(max-width: 553px)" />
+                <img src="../img/needHelp/big.webp" alt="" />
+            </picture>
+            <div class="bigScreen">
+                <div class="bigScreenInner">
+                    <p class="needText">Need Help? Check Out <br />Our Help Center</p>
+                    <p class="smallText">
+                        I'm a paragraph. Click here to add your own text and edit me. Let
+                        your users get to know you.
+                    </p>
+                    <button type="button" class="button">Go To Help Center</button>
+                </div>
+            </div>
+        </div>
+        <section class="footerNav sectionPadding">
+            <div class="storeLocation">
+                <h3>Store Location</h3>
+                <p>
+                    500 Terry Francine Street <br />
+                    San Francisco, CA 94158 <br />
+                    info@mysite.com <br />
+
+                    123-456-7890
+                </p>
+                <ul>
+                    <li><i class="ri-facebook-fill"></i></li>
+                    <li><i class="ri-instagram-line"></i></li>
+                    <li><i class="ri-twitter-x-fill"></i></li>
+                    <li><i class="ri-youtube-fill"></i></li>
+                </ul>
+            </div>
+            <div class="shop">
+                <h3>Shop</h3>
+                <ul>
+                    <li><a href="#">Shop All</a></li>
+                    <li><a href="#">Computers</a></li>
+                    <li><a href="#">Tablets</a></li>
+                    <li><a href="#">Drones & Cameras</a></li>
+                    <li><a href="#">Audio</a></li>
+                    <li><a href="#">Mobile</a></li>
+                    <li><a href="#">T.V & Home Cinema</a></li>
+                    <li><a href="#">Wearable Tech</a></li>
+                    <li><a href="#">Sale</a></li>
+                </ul>
+            </div>
+            <div class="customerSupport">
+                <h3>Customer Support</h3>
+                <ul>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+            </div>
+            <div class="policy">
+                <h3>Policy</h3>
+                <ul>
+                    <li><a href="#">Shopping & Returns</a></li>
+                    <li><a href="#">Terms & conditions</a></li>
+                    <li><a href="#">Payment Methods</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+        </section>
+        <section class="footerPaymentMethods">
+            <p>We accept the following paying methods</p>
+            <div class="paymentMethods">
+                <div class="img">
+                    <img src="../img/paymentMethod/Visa.webp" alt="">
+                </div>
+                <div class="img">
+                    <img src="../img/paymentMethod/AmericanExpress.webp" alt="">
+                </div>
+                <div class="img">
+                    <img src="../img/paymentMethod/brand-mastercard@3x.webp" alt="">
+                </div>
+                <div class="img">
+                    <img src="../img/paymentMethod/Diners.webp" alt="">
+                </div>
+                <div class="img">
+                    <img src="../img/paymentMethod/Discover.webp" alt="">
+                </div>
+                <div class="img">
+                    <img src="../img/paymentMethod/Jcb.webp" alt="">
+                </div>
+                <div class="img">
+                    <img src="../img/paymentMethod/PayPal.webp" alt="">
+                </div>
+                <div class="img">
+                    <img src="../img/paymentMethod/UnionPay.webp" alt="">
+                </div>
+            </div>
+        </section>
+        <p class="footerLower">Copyright &copy; <span class="year"></span> www.techshop.com - All right reserved </p>
+    </footer>
+    <div class="moveToTop show-link">
+        <a href="#">
+          <button class="btn">
+            <i class="ri-arrow-up-s-line"></i>
+          </button>
+        </a>
+      </div>
+</body>
+
+</html>
